@@ -36,3 +36,5 @@ print(solution2("2three45sixseven"))
 # Expected output: 234567
 print(solution2("123"))
 # Expected output: 123
+
+
