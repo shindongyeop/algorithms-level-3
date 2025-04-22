@@ -1,9 +1,11 @@
 def solution(s):
     answer = []
     words = s.split(" ") # Split the string into words (preserving spaces)
+    print(f'words = {words}')
     for word in words:
         formatted_word = []
         for idx, char in enumerate(word):
+            print(f'idx = {idx}, char={char}')
             if idx % 2 == 0:
                 formatted_word.append(char.upper())
             else:

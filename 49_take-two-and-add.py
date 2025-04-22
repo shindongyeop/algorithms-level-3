@@ -11,7 +11,7 @@ def solution(numbers):
             answer.append(S)
             print(f'answer.append({S}): {answer}')
     
-    answer = sorted(set(answer))
+    answer = sorted(set(answer)) # remove duplicate values and sort
     
     return answer
 
